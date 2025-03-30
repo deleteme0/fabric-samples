@@ -1,7 +1,7 @@
 
 # Required:
-Docker
-GO lang
+Docker, 
+GO lang, 
 Node 16
 
 
