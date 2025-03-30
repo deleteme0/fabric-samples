@@ -18,7 +18,7 @@ cd test-network
 
 cd asset-transfer-basic/rest-api-typescript
 
-TEST_NETWORK_HOME=/home/calvin/go/src/github.com/delete_me0/sandbx/fabric-samples/test-network npm run generateEnv
+TEST_NETWORK_HOME=../../test-network npm run generateEnv
 
 export REDIS_PASSWORD=$(uuidgen)
 npm run start:redis
